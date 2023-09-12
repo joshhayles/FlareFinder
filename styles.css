@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    justify-content: center; /* Center both vertically and horizontally */
+}
+
+#chart-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+.divider {
+    width: 1px;
+    min-height: 80px;
+    background-color: black;
+    margin: 0 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+    position: relative;
+}
+
+h1::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -40px;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-image: url('img/storage_icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+}
+
+.column h2 {
+    margin: 0;
+}
+
+.column p {
+    margin-top: 10px;
+}
