@@ -1,4 +1,4 @@
-const statusLogPath = 'https://help.datadoghq.com/attachments/token/5bPyRk1nbAbWB1X9m4NLYhXYc/?name=datadog-agent-2023-08-16T22-21-37Z-info.zip'
+const statusLogPath = 'https://help.datadoghq.com/attachments/token/5bPyRk1nbAbWB1X9m4NLYhXYc/?name=datadog-agent-2023-08-16T22-21-37Z-trace.zip'
 
 // Extract the last part of the URL
 const splitLogPath = statusLogPath.split('=')[1];

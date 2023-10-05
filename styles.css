@@ -14,18 +14,26 @@ body {
 
 .main-heading {
     text-align: center;
-    margin-top: 25px;
+    margin: 25px;
 }
 
 section {
-    margin: 20px;
-    padding: 20px;
+    margin: 10px 0; /* top and bottom has 10px margin, sides are zero */
+    padding: 10px;
     text-align: center;
 }
 
 .content-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* 4 equally sized columns */
-    gap: 10px;
+    gap: 7px;
     justify-content: center;
+}
+
+.section-first-p {
+    margin-top: 20px;
+}
+
+p {
+    margin-bottom: 18px;
 }
