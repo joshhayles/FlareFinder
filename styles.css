@@ -19,7 +19,6 @@ body {
 
 section {
     margin: 10px 0; /* top and bottom has 10px margin, sides are zero */
-    padding: 10px;
     text-align: center;
 }
 
